@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: ${REPOSITORY_TAG}
         ports:
         - containerPort: 80
 ---
